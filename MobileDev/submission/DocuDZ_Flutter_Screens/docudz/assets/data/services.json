@@ -1,0 +1,1886 @@
+{
+  "meta": {
+    "contentVersion": "2026.11",
+    "lastContentUpdate": "2026-11-05",
+    "illustrative": true,
+    "notice": "ILLUSTRATIVE SAMPLE CONTENT for UI/UX design purposes only. Documents, fees, offices and hours must be verified against official sources before release."
+  },
+  "wilayas": [
+    {
+      "code": "16",
+      "name": {
+        "en": "Algiers",
+        "fr": "Alger",
+        "ar": "الجزائر"
+      }
+    },
+    {
+      "code": "31",
+      "name": {
+        "en": "Oran",
+        "fr": "Oran",
+        "ar": "وهران"
+      }
+    },
+    {
+      "code": "25",
+      "name": {
+        "en": "Constantine",
+        "fr": "Constantine",
+        "ar": "قسنطينة"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "university",
+      "icon": "school",
+      "tone": "teal",
+      "lastVerified": "2026-11-04",
+      "estimatedVisits": 2,
+      "title": {
+        "en": "University registration",
+        "fr": "Inscription universitaire",
+        "ar": "التسجيل الجامعي"
+      },
+      "short": {
+        "en": "University",
+        "fr": "Université",
+        "ar": "الجامعة"
+      },
+      "subtitle": {
+        "en": "First year after the bac",
+        "fr": "1re année après le bac",
+        "ar": "السنة الأولى بعد البكالوريا"
+      },
+      "officeKind": {
+        "en": "Faculty registration office",
+        "fr": "Service de scolarité",
+        "ar": "مصلحة التمدرس"
+      },
+      "documents": [
+        {
+          "id": "u_bac",
+          "copies": 2,
+          "name": {
+            "en": "Baccalaureate transcript",
+            "fr": "Relevé de notes du bac",
+            "ar": "كشف نقاط البكالوريا"
+          },
+          "issuedBy": {
+            "en": "High school or regional exams office",
+            "fr": "Lycée ou direction des examens",
+            "ar": "الثانوية أو مديرية الامتحانات"
+          },
+          "where": {
+            "en": "Ask your high school secretariat. Bring your bac convocation and ID card.",
+            "fr": "Demandez au secrétariat de votre lycée avec votre convocation au bac et votre carte d'identité.",
+            "ar": "اطلبه من أمانة الثانوية مع استدعاء البكالوريا وبطاقة التعريف."
+          },
+          "tip": {
+            "en": "Make 2 certified copies at the town hall at the same time.",
+            "fr": "Faites-en 2 copies certifiées à la mairie dans la foulée.",
+            "ar": "صادق على نسختين في البلدية في نفس اليوم."
+          }
+        },
+        {
+          "id": "u_confirm",
+          "copies": 2,
+          "name": {
+            "en": "Pre-registration confirmation",
+            "fr": "Fiche de confirmation de préinscription",
+            "ar": "استمارة تأكيد التسجيل الأولي"
+          },
+          "issuedBy": {
+            "en": "Pre-registration website (printout)",
+            "fr": "Site de préinscription (impression)",
+            "ar": "موقع التسجيل الأولي (نسخة مطبوعة)"
+          },
+          "where": {
+            "en": "Print it from the pre-registration portal once your choice is confirmed.",
+            "fr": "Imprimez-la depuis le portail une fois votre choix confirmé.",
+            "ar": "اطبعها من بوابة التسجيل بعد تأكيد اختيارك."
+          },
+          "tip": {
+            "en": "Print it the day it is published; the portal is busy later.",
+            "fr": "Imprimez-la dès sa publication : le portail sature ensuite.",
+            "ar": "اطبعها يوم صدورها، فالبوابة تزدحم لاحقاً."
+          }
+        },
+        {
+          "id": "u_birth",
+          "copies": 1,
+          "name": {
+            "en": "Birth certificate (12S)",
+            "fr": "Extrait de naissance (12S)",
+            "ar": "شهادة الميلاد الخاصة (12S)"
+          },
+          "issuedBy": {
+            "en": "Commune town hall (APC)",
+            "fr": "Mairie de la commune (APC)",
+            "ar": "البلدية"
+          },
+          "where": {
+            "en": "Any town hall (APC) civil-status desk, with your ID card.",
+            "fr": "Guichet d'état civil de n'importe quelle mairie, avec votre carte d'identité.",
+            "ar": "شباك الحالة المدنية في أي بلدية، مع بطاقة التعريف."
+          },
+          "tip": {
+            "en": "Get the residence certificate in the same visit.",
+            "fr": "Demandez le certificat de résidence lors de la même visite.",
+            "ar": "اطلب شهادة الإقامة في نفس الزيارة."
+          }
+        },
+        {
+          "id": "u_photos",
+          "copies": 4,
+          "name": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "issuedBy": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          },
+          "where": {
+            "en": "Any photo studio. Plain light background.",
+            "fr": "N'importe quel studio photo, fond clair uni.",
+            "ar": "أي استوديو تصوير، بخلفية فاتحة."
+          },
+          "tip": {
+            "en": "Ask for 8: you will need more for the student card.",
+            "fr": "Demandez-en 8 : il en faudra pour la carte d'étudiant.",
+            "ar": "اطلب 8 صور، ستحتاج المزيد لبطاقة الطالب."
+          }
+        },
+        {
+          "id": "u_id",
+          "copies": 2,
+          "name": {
+            "en": "Copy of national ID card",
+            "fr": "Copie de la carte d'identité",
+            "ar": "نسخة من بطاقة التعريف الوطنية"
+          },
+          "issuedBy": {
+            "en": "Any photocopy shop",
+            "fr": "N'importe quel photocopieur",
+            "ar": "أي محل نسخ"
+          },
+          "where": {
+            "en": "Copy both sides on one page. Keep the original with you.",
+            "fr": "Copiez recto et verso sur une page. Gardez l'original sur vous.",
+            "ar": "انسخ الوجهين في صفحة واحدة واحتفظ بالأصل معك."
+          },
+          "tip": null
+        },
+        {
+          "id": "u_fee",
+          "copies": 1,
+          "name": {
+            "en": "Registration fee receipt",
+            "fr": "Reçu des frais d'inscription",
+            "ar": "وصل دفع حقوق التسجيل"
+          },
+          "issuedBy": {
+            "en": "Post office (CCP) or faculty cashier",
+            "fr": "Bureau de poste (CCP) ou caisse de la faculté",
+            "ar": "مكتب البريد أو صندوق الكلية"
+          },
+          "where": {
+            "en": "Pay at the post office with the account number shown on your confirmation sheet.",
+            "fr": "Payez à la poste avec le numéro de compte indiqué sur la fiche de confirmation.",
+            "ar": "ادفع في البريد برقم الحساب المذكور في استمارة التأكيد."
+          },
+          "tip": {
+            "en": "Keep the receipt: it is asked again for the student card.",
+            "fr": "Gardez le reçu : il sera redemandé pour la carte d'étudiant.",
+            "ar": "احتفظ بالوصل، سيُطلب مجدداً لبطاقة الطالب."
+          }
+        },
+        {
+          "id": "u_medical",
+          "copies": 1,
+          "name": {
+            "en": "Medical certificate",
+            "fr": "Certificat médical",
+            "ar": "شهادة طبية"
+          },
+          "issuedBy": {
+            "en": "General practitioner",
+            "fr": "Médecin généraliste",
+            "ar": "طبيب عام"
+          },
+          "where": {
+            "en": "Any general practitioner or the university health centre.",
+            "fr": "Tout médecin généraliste ou le centre médical universitaire.",
+            "ar": "أي طبيب عام أو المركز الطبي الجامعي."
+          },
+          "tip": null
+        },
+        {
+          "id": "u_residence",
+          "copies": 1,
+          "name": {
+            "en": "Residence certificate",
+            "fr": "Certificat de résidence",
+            "ar": "شهادة الإقامة"
+          },
+          "issuedBy": {
+            "en": "Town hall (APC) of your residence",
+            "fr": "Mairie (APC) de résidence",
+            "ar": "بلدية الإقامة"
+          },
+          "where": {
+            "en": "Only the town hall where you live can issue it.",
+            "fr": "Seule la mairie de votre lieu de résidence peut le délivrer.",
+            "ar": "تستخرج فقط من بلدية مقر سكنك."
+          },
+          "tip": {
+            "en": "Needed only if you apply for student housing.",
+            "fr": "Nécessaire uniquement pour une demande de résidence universitaire.",
+            "ar": "مطلوبة فقط عند طلب الإقامة الجامعية."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "id": "uf_reg",
+          "category": "fee",
+          "amount": 200,
+          "label": {
+            "en": "Registration fee",
+            "fr": "Frais d'inscription",
+            "ar": "حقوق التسجيل"
+          },
+          "note": {
+            "en": "Paid at the post office (CCP)",
+            "fr": "Payés à la poste (CCP)",
+            "ar": "تدفع في مكتب البريد"
+          }
+        },
+        {
+          "id": "uf_housing",
+          "category": "fee",
+          "amount": 400,
+          "optional": true,
+          "enabled": false,
+          "label": {
+            "en": "Student housing (yearly)",
+            "fr": "Résidence universitaire (annuel)",
+            "ar": "الإقامة الجامعية (سنوياً)"
+          },
+          "note": {
+            "en": "Only if you request a room",
+            "fr": "Seulement si vous demandez une chambre",
+            "ar": "فقط عند طلب غرفة"
+          }
+        },
+        {
+          "id": "uf_photos",
+          "category": "other",
+          "amount": 100,
+          "qty": 4,
+          "adjustable": true,
+          "unit": {
+            "en": "photo",
+            "fr": "photo",
+            "ar": "صورة"
+          },
+          "label": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "note": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          }
+        },
+        {
+          "id": "uf_copies",
+          "category": "other",
+          "amount": 10,
+          "qty": 10,
+          "adjustable": true,
+          "unit": {
+            "en": "page",
+            "fr": "page",
+            "ar": "صفحة"
+          },
+          "label": {
+            "en": "Photocopies",
+            "fr": "Photocopies",
+            "ar": "نسخ ورقية"
+          },
+          "note": {
+            "en": "Photocopy shop",
+            "fr": "Photocopieur",
+            "ar": "محل النسخ"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "en": "Confirm your pre-registration online",
+            "fr": "Confirmez votre préinscription en ligne",
+            "ar": "أكّد تسجيلك الأولي عبر الإنترنت"
+          },
+          "place": {
+            "en": "Pre-registration website",
+            "fr": "Site de préinscription",
+            "ar": "موقع التسجيل الأولي"
+          },
+          "detail": {
+            "en": "Check your assigned field and print the confirmation sheet.",
+            "fr": "Vérifiez votre filière et imprimez la fiche de confirmation.",
+            "ar": "تحقق من التخصص الممنوح واطبع استمارة التأكيد."
+          },
+          "tip": {
+            "en": "Print two copies: one for your file, one for the desk.",
+            "fr": "Imprimez deux exemplaires : un pour le dossier, un pour le guichet.",
+            "ar": "اطبع نسختين: واحدة للملف وأخرى للشباك."
+          }
+        },
+        {
+          "title": {
+            "en": "Collect certificates at the town hall",
+            "fr": "Retirez les extraits à la mairie",
+            "ar": "استخرج الوثائق من البلدية"
+          },
+          "place": {
+            "en": "Town hall (APC)",
+            "fr": "Mairie (APC)",
+            "ar": "البلدية"
+          },
+          "detail": {
+            "en": "Birth certificate (12S), residence certificate and certified copies.",
+            "fr": "Extrait de naissance (12S), certificat de résidence et copies certifiées.",
+            "ar": "شهادة الميلاد (12S) وشهادة الإقامة ونسخ مصادق عليها."
+          },
+          "tip": {
+            "en": "Ask for everything in one visit: the same desk issues them.",
+            "fr": "Demandez tout en une fois : c'est le même guichet.",
+            "ar": "اطلب كل شيء في زيارة واحدة، فالشباك نفسه يصدرها."
+          }
+        },
+        {
+          "title": {
+            "en": "Pay the registration fee",
+            "fr": "Payez les frais d'inscription",
+            "ar": "ادفع حقوق التسجيل"
+          },
+          "place": {
+            "en": "Post office (CCP)",
+            "fr": "Bureau de poste (CCP)",
+            "ar": "مكتب البريد"
+          },
+          "detail": {
+            "en": "Use the account number printed on your confirmation sheet.",
+            "fr": "Utilisez le numéro de compte imprimé sur votre fiche.",
+            "ar": "استعمل رقم الحساب المطبوع على استمارتك."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Submit your file at the faculty",
+            "fr": "Déposez votre dossier à la faculté",
+            "ar": "أودع ملفك في الكلية"
+          },
+          "place": {
+            "en": "Faculty registration office",
+            "fr": "Service de scolarité",
+            "ar": "مصلحة التمدرس"
+          },
+          "detail": {
+            "en": "Hand in originals for checking and leave the copies.",
+            "fr": "Présentez les originaux pour vérification et laissez les copies.",
+            "ar": "قدّم الأصول للتحقق واترك النسخ."
+          },
+          "tip": {
+            "en": "Go before 11:00: afternoons are reserved for late cases.",
+            "fr": "Passez avant 11 h : l'après-midi est réservé aux cas tardifs.",
+            "ar": "اذهب قبل الساعة 11، فالمساء مخصص للحالات المتأخرة."
+          }
+        },
+        {
+          "title": {
+            "en": "Collect your student card",
+            "fr": "Récupérez votre carte d'étudiant",
+            "ar": "استلم بطاقة الطالب"
+          },
+          "place": {
+            "en": "Faculty registration office",
+            "fr": "Service de scolarité",
+            "ar": "مصلحة التمدرس"
+          },
+          "detail": {
+            "en": "Usually ready within a week, together with your enrolment certificate.",
+            "fr": "Souvent prête en une semaine, avec le certificat de scolarité.",
+            "ar": "تكون جاهزة عادة خلال أسبوع مع شهادة التسجيل."
+          },
+          "tip": null
+        }
+      ],
+      "offices": [
+        {
+          "wilaya": "16",
+          "lat": 36.7473,
+          "lng": 3.057,
+          "name": {
+            "en": "Faculty registration office, Algiers 1",
+            "fr": "Service de scolarité, Alger 1",
+            "ar": "مصلحة التمدرس، جامعة الجزائر 1"
+          },
+          "address": {
+            "en": "2 Rue Didouche Mourad, Algiers Centre",
+            "fr": "2 rue Didouche Mourad, Alger-Centre",
+            "ar": "2 شارع ديدوش مراد، الجزائر الوسطى"
+          },
+          "hours": {
+            "sun": "08:30-15:30",
+            "mon": "08:30-15:30",
+            "tue": "08:30-15:30",
+            "wed": "08:30-15:30",
+            "thu": "08:30-12:00"
+          }
+        },
+        {
+          "wilaya": "31",
+          "lat": 35.6971,
+          "lng": -0.6308,
+          "name": {
+            "en": "Faculty registration office, Oran 1",
+            "fr": "Service de scolarité, Oran 1",
+            "ar": "مصلحة التمدرس، جامعة وهران 1"
+          },
+          "address": {
+            "en": "Es Senia campus, Oran",
+            "fr": "Campus d'Es Senia, Oran",
+            "ar": "حرم السانية، وهران"
+          },
+          "hours": {
+            "sun": "08:00-16:00",
+            "mon": "08:00-16:00",
+            "tue": "08:00-16:00",
+            "wed": "08:00-16:00",
+            "thu": "08:00-16:00"
+          }
+        },
+        {
+          "wilaya": "25",
+          "lat": 36.365,
+          "lng": 6.6147,
+          "name": {
+            "en": "Faculty registration office, Constantine 1",
+            "fr": "Service de scolarité, Constantine 1",
+            "ar": "مصلحة التمدرس، جامعة قسنطينة 1"
+          },
+          "address": {
+            "en": "Ain El Bey road, Constantine",
+            "fr": "Route d'Ain El Bey, Constantine",
+            "ar": "طريق عين الباي، قسنطينة"
+          },
+          "hours": {
+            "sun": "08:00-15:30",
+            "mon": "08:00-15:30",
+            "tue": "08:00-15:30",
+            "wed": "08:00-15:30",
+            "thu": "08:00-15:30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "passport",
+      "icon": "passport",
+      "tone": "indigo",
+      "lastVerified": "2026-11-03",
+      "estimatedVisits": 3,
+      "title": {
+        "en": "Passport",
+        "fr": "Passeport",
+        "ar": "جواز السفر"
+      },
+      "short": {
+        "en": "Passport",
+        "fr": "Passeport",
+        "ar": "جواز السفر"
+      },
+      "subtitle": {
+        "en": "Biometric, first application",
+        "fr": "Biométrique, 1re demande",
+        "ar": "بيومتري، طلب أول"
+      },
+      "officeKind": {
+        "en": "Daïra passport desk",
+        "fr": "Daïra, service des passeports",
+        "ar": "الدائرة، مصلحة الجوازات"
+      },
+      "documents": [
+        {
+          "id": "p_form",
+          "copies": 1,
+          "name": {
+            "en": "Application form, signed",
+            "fr": "Formulaire de demande signé",
+            "ar": "استمارة الطلب موقعة"
+          },
+          "issuedBy": {
+            "en": "Daïra passport desk",
+            "fr": "Daïra, service des passeports",
+            "ar": "الدائرة، مصلحة الجوازات"
+          },
+          "where": {
+            "en": "Pick it up at the daïra desk, or print it at home if available online.",
+            "fr": "Retirez-le au guichet de la daïra, ou imprimez-le s'il est en ligne.",
+            "ar": "اسحبها من شباك الدائرة أو اطبعها إن كانت متوفرة على الإنترنت."
+          },
+          "tip": {
+            "en": "Fill it in capital letters with a black pen.",
+            "fr": "Remplissez-le en majuscules, au stylo noir.",
+            "ar": "املأها بحروف كبيرة وبقلم أسود."
+          }
+        },
+        {
+          "id": "p_birth",
+          "copies": 1,
+          "name": {
+            "en": "Birth certificate (12S)",
+            "fr": "Extrait de naissance (12S)",
+            "ar": "شهادة الميلاد الخاصة (12S)"
+          },
+          "issuedBy": {
+            "en": "Commune town hall (APC)",
+            "fr": "Mairie de la commune (APC)",
+            "ar": "البلدية"
+          },
+          "where": {
+            "en": "Any town hall (APC) civil-status desk, with your ID card.",
+            "fr": "Guichet d'état civil de n'importe quelle mairie, avec votre carte d'identité.",
+            "ar": "شباك الحالة المدنية في أي بلدية، مع بطاقة التعريف."
+          },
+          "tip": {
+            "en": "Get the residence certificate in the same visit.",
+            "fr": "Demandez le certificat de résidence lors de la même visite.",
+            "ar": "اطلب شهادة الإقامة في نفس الزيارة."
+          }
+        },
+        {
+          "id": "p_residence",
+          "copies": 1,
+          "name": {
+            "en": "Residence certificate",
+            "fr": "Certificat de résidence",
+            "ar": "شهادة الإقامة"
+          },
+          "issuedBy": {
+            "en": "Town hall (APC) of your residence",
+            "fr": "Mairie (APC) de résidence",
+            "ar": "بلدية الإقامة"
+          },
+          "where": {
+            "en": "Only the town hall where you live can issue it.",
+            "fr": "Seule la mairie de votre lieu de résidence peut le délivrer.",
+            "ar": "تستخرج فقط من بلدية مقر سكنك."
+          },
+          "tip": {
+            "en": "Check the date: offices may refuse old certificates.",
+            "fr": "Vérifiez la date : un certificat ancien peut être refusé.",
+            "ar": "تحقق من التاريخ، فقد ترفض الشهادة القديمة."
+          }
+        },
+        {
+          "id": "p_photos",
+          "copies": 4,
+          "name": {
+            "en": "Biometric ID photos",
+            "fr": "Photos d'identité biométriques",
+            "ar": "صور شمسية بيومترية"
+          },
+          "issuedBy": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          },
+          "where": {
+            "en": "Say 'biometric passport' at the studio: white background, no glasses.",
+            "fr": "Précisez « passeport biométrique » : fond blanc, sans lunettes.",
+            "ar": "اطلب صوراً لجواز السفر البيومتري: خلفية بيضاء ودون نظارات."
+          },
+          "tip": null
+        },
+        {
+          "id": "p_id",
+          "copies": 1,
+          "name": {
+            "en": "Copy of national ID card",
+            "fr": "Copie de la carte d'identité",
+            "ar": "نسخة من بطاقة التعريف الوطنية"
+          },
+          "issuedBy": {
+            "en": "Any photocopy shop",
+            "fr": "N'importe quel photocopieur",
+            "ar": "أي محل نسخ"
+          },
+          "where": {
+            "en": "Copy both sides on one page. Bring the original too.",
+            "fr": "Recto et verso sur une page. Apportez aussi l'original.",
+            "ar": "انسخ الوجهين في صفحة واحدة واحضر الأصل."
+          },
+          "tip": null
+        },
+        {
+          "id": "p_work",
+          "copies": 1,
+          "name": {
+            "en": "Work or school certificate",
+            "fr": "Attestation de travail ou de scolarité",
+            "ar": "شهادة عمل أو شهادة مدرسية"
+          },
+          "issuedBy": {
+            "en": "Your employer or university",
+            "fr": "Votre employeur ou université",
+            "ar": "المستخدم أو الجامعة"
+          },
+          "where": {
+            "en": "Ask HR or the registration office for a recent certificate.",
+            "fr": "Demandez une attestation récente aux RH ou à la scolarité.",
+            "ar": "اطلب شهادة حديثة من الموارد البشرية أو مصلحة التمدرس."
+          },
+          "tip": null
+        },
+        {
+          "id": "p_blood",
+          "copies": 1,
+          "name": {
+            "en": "Blood group card",
+            "fr": "Carte de groupe sanguin",
+            "ar": "بطاقة فصيلة الدم"
+          },
+          "issuedBy": {
+            "en": "Medical laboratory",
+            "fr": "Laboratoire d'analyses",
+            "ar": "مخبر التحاليل الطبية"
+          },
+          "where": {
+            "en": "Any medical lab; results are usually ready the same day.",
+            "fr": "Tout laboratoire ; résultat souvent le jour même.",
+            "ar": "أي مخبر، والنتيجة غالباً في نفس اليوم."
+          },
+          "tip": null
+        },
+        {
+          "id": "p_stamp",
+          "copies": 1,
+          "name": {
+            "en": "Fiscal stamp",
+            "fr": "Timbre fiscal",
+            "ar": "طابع جبائي"
+          },
+          "issuedBy": {
+            "en": "Post office or tax office",
+            "fr": "Poste ou recette des impôts",
+            "ar": "البريد أو قباضة الضرائب"
+          },
+          "where": {
+            "en": "Buy the amount shown in the cost calculator. Keep it flat, do not stick it.",
+            "fr": "Achetez le montant indiqué dans le calculateur. Ne le collez pas.",
+            "ar": "اشترِ القيمة المبينة في الحاسبة ولا تلصقه."
+          },
+          "tip": {
+            "en": "Buy it before the daïra visit: it is rarely sold on site.",
+            "fr": "Achetez-le avant d'aller à la daïra : rarement vendu sur place.",
+            "ar": "اشتره قبل الذهاب إلى الدائرة، فنادراً ما يباع هناك."
+          }
+        },
+        {
+          "id": "p_military",
+          "copies": 1,
+          "name": {
+            "en": "Military service status",
+            "fr": "Situation vis-à-vis du service national",
+            "ar": "وثيقة الوضعية تجاه الخدمة الوطنية"
+          },
+          "issuedBy": {
+            "en": "National service office",
+            "fr": "Bureau du service national",
+            "ar": "مكتب الخدمة الوطنية"
+          },
+          "where": {
+            "en": "Men aged 19 to 30 only. Bring your ID and birth certificate.",
+            "fr": "Hommes de 19 à 30 ans uniquement, avec carte d'identité et extrait.",
+            "ar": "للذكور من 19 إلى 30 سنة فقط، مع بطاقة التعريف وشهادة الميلاد."
+          },
+          "tip": {
+            "en": "Do this first: without it the file is refused.",
+            "fr": "Commencez par là : sans ce document le dossier est refusé.",
+            "ar": "ابدأ بها، فبدونها يرفض الملف."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "id": "pf_stamp",
+          "category": "stamp",
+          "amount": 6000,
+          "label": {
+            "en": "Fiscal stamp, 28-page booklet",
+            "fr": "Timbre fiscal, livret 28 pages",
+            "ar": "طابع جبائي، دفتر 28 صفحة"
+          },
+          "note": {
+            "en": "Post office or tax office",
+            "fr": "Poste ou recette des impôts",
+            "ar": "البريد أو قباضة الضرائب"
+          }
+        },
+        {
+          "id": "pf_48",
+          "category": "stamp",
+          "amount": 6000,
+          "optional": true,
+          "enabled": false,
+          "label": {
+            "en": "Upgrade to 48 pages",
+            "fr": "Option livret 48 pages",
+            "ar": "ترقية إلى 48 صفحة"
+          },
+          "note": {
+            "en": "For frequent travellers",
+            "fr": "Pour les voyageurs fréquents",
+            "ar": "لكثيري السفر"
+          }
+        },
+        {
+          "id": "pf_photos",
+          "category": "other",
+          "amount": 100,
+          "qty": 4,
+          "adjustable": true,
+          "unit": {
+            "en": "photo",
+            "fr": "photo",
+            "ar": "صورة"
+          },
+          "label": {
+            "en": "Biometric photos",
+            "fr": "Photos biométriques",
+            "ar": "صور بيومترية"
+          },
+          "note": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          }
+        },
+        {
+          "id": "pf_blood",
+          "category": "other",
+          "amount": 500,
+          "optional": true,
+          "enabled": true,
+          "label": {
+            "en": "Blood group test",
+            "fr": "Analyse groupe sanguin",
+            "ar": "تحليل فصيلة الدم"
+          },
+          "note": {
+            "en": "Skip if you already have the card",
+            "fr": "Inutile si vous avez déjà la carte",
+            "ar": "لا داعي إن كانت لديك البطاقة"
+          }
+        },
+        {
+          "id": "pf_copies",
+          "category": "other",
+          "amount": 10,
+          "qty": 5,
+          "adjustable": true,
+          "unit": {
+            "en": "page",
+            "fr": "page",
+            "ar": "صفحة"
+          },
+          "label": {
+            "en": "Photocopies",
+            "fr": "Photocopies",
+            "ar": "نسخ ورقية"
+          },
+          "note": {
+            "en": "Photocopy shop",
+            "fr": "Photocopieur",
+            "ar": "محل النسخ"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "en": "Check your military service status",
+            "fr": "Vérifiez votre situation militaire",
+            "ar": "سوِّ وضعيتك تجاه الخدمة الوطنية"
+          },
+          "place": {
+            "en": "National service office",
+            "fr": "Bureau du service national",
+            "ar": "مكتب الخدمة الوطنية"
+          },
+          "detail": {
+            "en": "Men aged 19 to 30 need this document before anything else.",
+            "fr": "Les hommes de 19 à 30 ans en ont besoin avant tout le reste.",
+            "ar": "يحتاجها الذكور من 19 إلى 30 سنة قبل أي خطوة أخرى."
+          },
+          "tip": {
+            "en": "Do this first: without it the daïra refuses the whole file.",
+            "fr": "À faire en premier : sans elle, la daïra refuse tout le dossier.",
+            "ar": "ابدأ بها، فبدونها ترفض الدائرة الملف كاملاً."
+          }
+        },
+        {
+          "title": {
+            "en": "Get your certificates at the town hall",
+            "fr": "Retirez vos extraits à la mairie",
+            "ar": "استخرج وثائقك من البلدية"
+          },
+          "place": {
+            "en": "Town hall (APC)",
+            "fr": "Mairie (APC)",
+            "ar": "البلدية"
+          },
+          "detail": {
+            "en": "Birth certificate (12S) and residence certificate.",
+            "fr": "Extrait de naissance (12S) et certificat de résidence.",
+            "ar": "شهادة الميلاد (12S) وشهادة الإقامة."
+          },
+          "tip": {
+            "en": "Both come from the same desk: ask for them together, early morning.",
+            "fr": "Même guichet pour les deux : demandez-les ensemble, tôt le matin.",
+            "ar": "الشباك نفسه يصدرهما: اطلبهما معاً في الصباح الباكر."
+          }
+        },
+        {
+          "title": {
+            "en": "Buy the fiscal stamp",
+            "fr": "Achetez le timbre fiscal",
+            "ar": "اشترِ الطابع الجبائي"
+          },
+          "place": {
+            "en": "Post office or tax office",
+            "fr": "Poste ou recette des impôts",
+            "ar": "البريد أو قباضة الضرائب"
+          },
+          "detail": {
+            "en": "Check the amount in the cost calculator before you go.",
+            "fr": "Vérifiez le montant dans le calculateur avant d'y aller.",
+            "ar": "تحقق من القيمة في الحاسبة قبل الذهاب."
+          },
+          "tip": {
+            "en": "Buy it before the daïra visit: it is rarely sold on site.",
+            "fr": "Achetez-le avant la daïra : rarement vendu sur place.",
+            "ar": "اشتره قبل زيارة الدائرة، فنادراً ما يباع هناك."
+          }
+        },
+        {
+          "title": {
+            "en": "Take biometric photos",
+            "fr": "Faites les photos biométriques",
+            "ar": "التقط الصور البيومترية"
+          },
+          "place": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          },
+          "detail": {
+            "en": "White background, neutral face, no glasses.",
+            "fr": "Fond blanc, visage neutre, sans lunettes.",
+            "ar": "خلفية بيضاء، وجه محايد، دون نظارات."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Submit the file and give fingerprints",
+            "fr": "Déposez le dossier et vos empreintes",
+            "ar": "أودع الملف وسجّل بصماتك"
+          },
+          "place": {
+            "en": "Daïra passport desk",
+            "fr": "Daïra, service des passeports",
+            "ar": "الدائرة، مصلحة الجوازات"
+          },
+          "detail": {
+            "en": "The agent checks originals, keeps the copies and takes your fingerprints.",
+            "fr": "L'agent vérifie les originaux, garde les copies et prend vos empreintes.",
+            "ar": "يتحقق الموظف من الأصول ويحتفظ بالنسخ ويأخذ بصماتك."
+          },
+          "tip": {
+            "en": "Bring originals AND copies of every document.",
+            "fr": "Apportez les originaux ET les copies de chaque document.",
+            "ar": "احضر الأصول والنسخ لكل وثيقة."
+          }
+        },
+        {
+          "title": {
+            "en": "Collect your passport",
+            "fr": "Retirez votre passeport",
+            "ar": "استلم جواز سفرك"
+          },
+          "place": {
+            "en": "Daïra passport desk",
+            "fr": "Daïra, service des passeports",
+            "ar": "الدائرة، مصلحة الجوازات"
+          },
+          "detail": {
+            "en": "You receive a message when it is ready.",
+            "fr": "Vous recevez un message lorsqu'il est prêt.",
+            "ar": "تصلك رسالة عندما يكون جاهزاً."
+          },
+          "tip": {
+            "en": "Bring the submission receipt and your ID card, or you will be sent back.",
+            "fr": "Apportez le récépissé et votre carte d'identité, sinon on vous renverra.",
+            "ar": "احضر وصل الإيداع وبطاقة التعريف وإلا ستعود أدراجك."
+          }
+        }
+      ],
+      "offices": [
+        {
+          "wilaya": "16",
+          "lat": 36.76,
+          "lng": 3.055,
+          "name": {
+            "en": "Daïra of Sidi M'Hamed, passport desk",
+            "fr": "Daïra de Sidi M'Hamed, passeports",
+            "ar": "دائرة سيدي امحمد، مصلحة الجوازات"
+          },
+          "address": {
+            "en": "Boulevard Mohamed V, Sidi M'Hamed, Algiers",
+            "fr": "Boulevard Mohamed V, Sidi M'Hamed, Alger",
+            "ar": "شارع محمد الخامس، سيدي امحمد، الجزائر"
+          },
+          "hours": {
+            "sun": "08:30-16:00",
+            "mon": "08:30-16:00",
+            "tue": "08:30-16:00",
+            "wed": "08:30-16:00",
+            "thu": "08:30-16:00"
+          }
+        },
+        {
+          "wilaya": "31",
+          "lat": 35.6987,
+          "lng": -0.6349,
+          "name": {
+            "en": "Daïra of Oran, passport desk",
+            "fr": "Daïra d'Oran, passeports",
+            "ar": "دائرة وهران، مصلحة الجوازات"
+          },
+          "address": {
+            "en": "Boulevard de la Soummam, Oran",
+            "fr": "Boulevard de la Soummam, Oran",
+            "ar": "شارع الصومام، وهران"
+          },
+          "hours": {
+            "sun": "08:00-15:30",
+            "mon": "08:00-15:30",
+            "tue": "08:00-15:30",
+            "wed": "08:00-15:30",
+            "thu": "08:00-15:30"
+          }
+        },
+        {
+          "wilaya": "25",
+          "lat": 36.365,
+          "lng": 6.6147,
+          "name": {
+            "en": "Daïra of Constantine, passport desk",
+            "fr": "Daïra de Constantine, passeports",
+            "ar": "دائرة قسنطينة، مصلحة الجوازات"
+          },
+          "address": {
+            "en": "Rue Abane Ramdane, Constantine",
+            "fr": "Rue Abane Ramdane, Constantine",
+            "ar": "شارع عبان رمضان، قسنطينة"
+          },
+          "hours": {
+            "sun": "08:00-16:00",
+            "mon": "08:00-16:00",
+            "tue": "08:00-16:00",
+            "wed": "08:00-16:00",
+            "thu": "08:00-16:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "icon": "car",
+      "tone": "apricot",
+      "lastVerified": "2026-10-28",
+      "estimatedVisits": 4,
+      "title": {
+        "en": "Driver's license",
+        "fr": "Permis de conduire",
+        "ar": "رخصة السياقة"
+      },
+      "short": {
+        "en": "License",
+        "fr": "Permis",
+        "ar": "رخصة السياقة"
+      },
+      "subtitle": {
+        "en": "Category B, first license",
+        "fr": "Catégorie B, premier permis",
+        "ar": "الصنف ب، أول رخصة"
+      },
+      "officeKind": {
+        "en": "Driving-license office",
+        "fr": "Service des permis de conduire",
+        "ar": "مصلحة رخص السياقة"
+      },
+      "documents": [
+        {
+          "id": "l_birth",
+          "copies": 1,
+          "name": {
+            "en": "Birth certificate (12S)",
+            "fr": "Extrait de naissance (12S)",
+            "ar": "شهادة الميلاد الخاصة (12S)"
+          },
+          "issuedBy": {
+            "en": "Commune town hall (APC)",
+            "fr": "Mairie de la commune (APC)",
+            "ar": "البلدية"
+          },
+          "where": {
+            "en": "Any town hall (APC) civil-status desk, with your ID card.",
+            "fr": "Guichet d'état civil de n'importe quelle mairie, avec votre carte d'identité.",
+            "ar": "شباك الحالة المدنية في أي بلدية، مع بطاقة التعريف."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_residence",
+          "copies": 1,
+          "name": {
+            "en": "Residence certificate",
+            "fr": "Certificat de résidence",
+            "ar": "شهادة الإقامة"
+          },
+          "issuedBy": {
+            "en": "Town hall (APC) of your residence",
+            "fr": "Mairie (APC) de résidence",
+            "ar": "بلدية الإقامة"
+          },
+          "where": {
+            "en": "Only the town hall where you live can issue it.",
+            "fr": "Seule la mairie de votre lieu de résidence peut le délivrer.",
+            "ar": "تستخرج فقط من بلدية مقر سكنك."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_id",
+          "copies": 2,
+          "name": {
+            "en": "Copy of national ID card",
+            "fr": "Copie de la carte d'identité",
+            "ar": "نسخة من بطاقة التعريف الوطنية"
+          },
+          "issuedBy": {
+            "en": "Any photocopy shop",
+            "fr": "N'importe quel photocopieur",
+            "ar": "أي محل نسخ"
+          },
+          "where": {
+            "en": "Copy both sides on one page.",
+            "fr": "Recto et verso sur une page.",
+            "ar": "انسخ الوجهين في صفحة واحدة."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_photos",
+          "copies": 4,
+          "name": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "issuedBy": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          },
+          "where": {
+            "en": "Any photo studio. Plain light background.",
+            "fr": "N'importe quel studio photo, fond clair uni.",
+            "ar": "أي استوديو تصوير، بخلفية فاتحة."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_medical",
+          "copies": 1,
+          "name": {
+            "en": "General medical certificate",
+            "fr": "Certificat de médecine générale",
+            "ar": "شهادة طبية عامة"
+          },
+          "issuedBy": {
+            "en": "General practitioner",
+            "fr": "Médecin généraliste",
+            "ar": "طبيب عام"
+          },
+          "where": {
+            "en": "Ask your driving school which doctors they usually work with.",
+            "fr": "Demandez à l'auto-école avec quels médecins elle travaille.",
+            "ar": "اسأل مدرسة السياقة عن الأطباء المعتمدين لديها."
+          },
+          "tip": {
+            "en": "Book the eye test the same day to save a trip.",
+            "fr": "Prenez le rendez-vous ophtalmo le même jour.",
+            "ar": "احجز فحص العيون في نفس اليوم لتوفير تنقل."
+          }
+        },
+        {
+          "id": "l_eyes",
+          "copies": 1,
+          "name": {
+            "en": "Eye test certificate",
+            "fr": "Certificat ophtalmologique",
+            "ar": "شهادة فحص العيون"
+          },
+          "issuedBy": {
+            "en": "Ophthalmologist",
+            "fr": "Ophtalmologue",
+            "ar": "طبيب العيون"
+          },
+          "where": {
+            "en": "Any ophthalmologist. Bring your glasses if you wear them.",
+            "fr": "Tout ophtalmologue. Apportez vos lunettes si vous en portez.",
+            "ar": "أي طبيب عيون، واحضر نظارتك إن كنت تستعملها."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_blood",
+          "copies": 1,
+          "name": {
+            "en": "Blood group card",
+            "fr": "Carte de groupe sanguin",
+            "ar": "بطاقة فصيلة الدم"
+          },
+          "issuedBy": {
+            "en": "Medical laboratory",
+            "fr": "Laboratoire d'analyses",
+            "ar": "مخبر التحاليل الطبية"
+          },
+          "where": {
+            "en": "Any medical lab; results are usually ready the same day.",
+            "fr": "Tout laboratoire ; résultat souvent le jour même.",
+            "ar": "أي مخبر، والنتيجة غالباً في نفس اليوم."
+          },
+          "tip": null
+        },
+        {
+          "id": "l_school",
+          "copies": 1,
+          "name": {
+            "en": "Driving school enrolment form",
+            "fr": "Fiche d'inscription auto-école",
+            "ar": "استمارة التسجيل في مدرسة السياقة"
+          },
+          "issuedBy": {
+            "en": "Your driving school",
+            "fr": "Votre auto-école",
+            "ar": "مدرسة السياقة"
+          },
+          "where": {
+            "en": "The school fills it in and submits the full file for you.",
+            "fr": "L'auto-école la remplit et dépose le dossier complet.",
+            "ar": "تملؤها المدرسة وتودع الملف كاملاً نيابة عنك."
+          },
+          "tip": {
+            "en": "Give the school a complete file at once to avoid delaying your test date.",
+            "fr": "Donnez un dossier complet d'un coup pour ne pas retarder l'examen.",
+            "ar": "سلّم ملفاً كاملاً دفعة واحدة كي لا يتأخر موعد الامتحان."
+          }
+        }
+      ],
+      "fees": [
+        {
+          "id": "lf_stamp",
+          "category": "stamp",
+          "amount": 1000,
+          "label": {
+            "en": "Fiscal stamp, license issue",
+            "fr": "Timbre fiscal, délivrance",
+            "ar": "طابع جبائي، إصدار الرخصة"
+          },
+          "note": {
+            "en": "Post office or tax office",
+            "fr": "Poste ou recette des impôts",
+            "ar": "البريد أو قباضة الضرائب"
+          }
+        },
+        {
+          "id": "lf_exam",
+          "category": "stamp",
+          "amount": 500,
+          "qty": 2,
+          "adjustable": true,
+          "unit": {
+            "en": "exam",
+            "fr": "examen",
+            "ar": "امتحان"
+          },
+          "label": {
+            "en": "Exam stamps",
+            "fr": "Timbres d'examen",
+            "ar": "طوابع الامتحان"
+          },
+          "note": {
+            "en": "Theory and practical",
+            "fr": "Code et conduite",
+            "ar": "النظري والتطبيقي"
+          }
+        },
+        {
+          "id": "lf_medical",
+          "category": "other",
+          "amount": 1500,
+          "label": {
+            "en": "Medical and eye exams",
+            "fr": "Visites médicale et ophtalmo",
+            "ar": "الفحص الطبي وفحص العيون"
+          },
+          "note": {
+            "en": "Indicative, varies by doctor",
+            "fr": "Indicatif, selon le médecin",
+            "ar": "تقريبي، يختلف حسب الطبيب"
+          }
+        },
+        {
+          "id": "lf_photos",
+          "category": "other",
+          "amount": 100,
+          "qty": 4,
+          "adjustable": true,
+          "unit": {
+            "en": "photo",
+            "fr": "photo",
+            "ar": "صورة"
+          },
+          "label": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "note": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "en": "Enrol in a driving school",
+            "fr": "Inscrivez-vous en auto-école",
+            "ar": "سجّل في مدرسة السياقة"
+          },
+          "place": {
+            "en": "Driving school",
+            "fr": "Auto-école",
+            "ar": "مدرسة السياقة"
+          },
+          "detail": {
+            "en": "Compare prices and lesson schedules before paying.",
+            "fr": "Comparez prix et horaires avant de payer.",
+            "ar": "قارن الأسعار والمواعيد قبل الدفع."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Pass the medical and eye exams",
+            "fr": "Passez les visites médicales",
+            "ar": "أجرِ الفحص الطبي وفحص العيون"
+          },
+          "place": {
+            "en": "Doctor and ophthalmologist",
+            "fr": "Médecin et ophtalmologue",
+            "ar": "الطبيب وطبيب العيون"
+          },
+          "detail": {
+            "en": "Two certificates are required.",
+            "fr": "Deux certificats sont exigés.",
+            "ar": "مطلوب شهادتان."
+          },
+          "tip": {
+            "en": "Book both on the same day.",
+            "fr": "Prenez les deux rendez-vous le même jour.",
+            "ar": "احجز الموعدين في نفس اليوم."
+          }
+        },
+        {
+          "title": {
+            "en": "Hand your full file to the school",
+            "fr": "Remettez le dossier complet",
+            "ar": "سلّم ملفك كاملاً للمدرسة"
+          },
+          "place": {
+            "en": "Driving school",
+            "fr": "Auto-école",
+            "ar": "مدرسة السياقة"
+          },
+          "detail": {
+            "en": "The school registers you for the exams.",
+            "fr": "L'auto-école vous inscrit aux examens.",
+            "ar": "تسجلك المدرسة في الامتحانات."
+          },
+          "tip": {
+            "en": "Tick every document in DocuDZ before going.",
+            "fr": "Cochez chaque document dans DocuDZ avant d'y aller.",
+            "ar": "أشّر على كل وثيقة في DocuDZ قبل الذهاب."
+          }
+        },
+        {
+          "title": {
+            "en": "Pass the theory test",
+            "fr": "Passez l'examen du code",
+            "ar": "اجتز امتحان قانون المرور"
+          },
+          "place": {
+            "en": "Exam centre",
+            "fr": "Centre d'examen",
+            "ar": "مركز الامتحان"
+          },
+          "detail": {
+            "en": "Bring your ID card and convocation.",
+            "fr": "Apportez carte d'identité et convocation.",
+            "ar": "احضر بطاقة التعريف والاستدعاء."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Pass the practical tests",
+            "fr": "Passez les épreuves pratiques",
+            "ar": "اجتز الامتحانات التطبيقية"
+          },
+          "place": {
+            "en": "Exam centre",
+            "fr": "Centre d'examen",
+            "ar": "مركز الامتحان"
+          },
+          "detail": {
+            "en": "Manoeuvres, then driving in traffic.",
+            "fr": "Créneau, puis conduite en circulation.",
+            "ar": "المناورات ثم السياقة في الطريق."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Collect your license",
+            "fr": "Retirez votre permis",
+            "ar": "استلم رخصتك"
+          },
+          "place": {
+            "en": "Driving-license office",
+            "fr": "Service des permis",
+            "ar": "مصلحة رخص السياقة"
+          },
+          "detail": {
+            "en": "Bring the exam result slip and your ID card.",
+            "fr": "Apportez l'attestation de réussite et votre carte d'identité.",
+            "ar": "احضر شهادة النجاح وبطاقة التعريف."
+          },
+          "tip": {
+            "en": "Call or check the hours first: collection days can be limited.",
+            "fr": "Vérifiez les horaires : les jours de retrait peuvent être limités.",
+            "ar": "تحقق من المواعيد، فأيام الاستلام قد تكون محدودة."
+          }
+        }
+      ],
+      "offices": [
+        {
+          "wilaya": "16",
+          "lat": 36.7538,
+          "lng": 3.0588,
+          "name": {
+            "en": "Algiers driving-license office",
+            "fr": "Service des permis, Alger",
+            "ar": "مصلحة رخص السياقة، الجزائر"
+          },
+          "address": {
+            "en": "Rue Larbi Ben M'hidi, Algiers Centre",
+            "fr": "Rue Larbi Ben M'hidi, Alger-Centre",
+            "ar": "شارع العربي بن مهيدي، الجزائر الوسطى"
+          },
+          "hours": {
+            "sun": "08:30-15:00",
+            "mon": "08:30-15:00",
+            "tue": "08:30-15:00",
+            "wed": "08:30-15:00"
+          }
+        },
+        {
+          "wilaya": "31",
+          "lat": 35.6971,
+          "lng": -0.6308,
+          "name": {
+            "en": "Oran driving-license office",
+            "fr": "Service des permis, Oran",
+            "ar": "مصلحة رخص السياقة، وهران"
+          },
+          "address": {
+            "en": "Place du 1er Novembre, Oran",
+            "fr": "Place du 1er Novembre, Oran",
+            "ar": "ساحة أول نوفمبر، وهران"
+          },
+          "hours": {
+            "sun": "08:00-15:30",
+            "mon": "08:00-15:30",
+            "tue": "08:00-15:30",
+            "wed": "08:00-15:30",
+            "thu": "08:00-12:00"
+          }
+        },
+        {
+          "wilaya": "25",
+          "lat": 36.365,
+          "lng": 6.6147,
+          "name": {
+            "en": "Constantine driving-license office",
+            "fr": "Service des permis, Constantine",
+            "ar": "مصلحة رخص السياقة، قسنطينة"
+          },
+          "address": {
+            "en": "Boulevard Belouizdad, Constantine",
+            "fr": "Boulevard Belouizdad, Constantine",
+            "ar": "شارع بلوزداد، قسنطينة"
+          },
+          "hours": {
+            "sun": "08:00-16:00",
+            "mon": "08:00-16:00",
+            "tue": "08:00-16:00",
+            "wed": "08:00-16:00",
+            "thu": "08:00-16:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cnas",
+      "icon": "health",
+      "tone": "plum",
+      "lastVerified": "2026-11-01",
+      "estimatedVisits": 2,
+      "title": {
+        "en": "CNAS registration",
+        "fr": "Affiliation CNAS",
+        "ar": "الانتساب إلى CNAS"
+      },
+      "short": {
+        "en": "CNAS",
+        "fr": "CNAS",
+        "ar": "CNAS"
+      },
+      "subtitle": {
+        "en": "Social security and Chifa card",
+        "fr": "Sécurité sociale et carte Chifa",
+        "ar": "الضمان الاجتماعي وبطاقة الشفاء"
+      },
+      "officeKind": {
+        "en": "CNAS agency",
+        "fr": "Agence CNAS",
+        "ar": "وكالة CNAS"
+      },
+      "documents": [
+        {
+          "id": "c_birth",
+          "copies": 1,
+          "name": {
+            "en": "Birth certificate (12S)",
+            "fr": "Extrait de naissance (12S)",
+            "ar": "شهادة الميلاد الخاصة (12S)"
+          },
+          "issuedBy": {
+            "en": "Commune town hall (APC)",
+            "fr": "Mairie de la commune (APC)",
+            "ar": "البلدية"
+          },
+          "where": {
+            "en": "Any town hall (APC) civil-status desk, with your ID card.",
+            "fr": "Guichet d'état civil de n'importe quelle mairie, avec votre carte d'identité.",
+            "ar": "شباك الحالة المدنية في أي بلدية، مع بطاقة التعريف."
+          },
+          "tip": null
+        },
+        {
+          "id": "c_id",
+          "copies": 1,
+          "name": {
+            "en": "Copy of national ID card",
+            "fr": "Copie de la carte d'identité",
+            "ar": "نسخة من بطاقة التعريف الوطنية"
+          },
+          "issuedBy": {
+            "en": "Any photocopy shop",
+            "fr": "N'importe quel photocopieur",
+            "ar": "أي محل نسخ"
+          },
+          "where": {
+            "en": "Copy both sides on one page.",
+            "fr": "Recto et verso sur une page.",
+            "ar": "انسخ الوجهين في صفحة واحدة."
+          },
+          "tip": null
+        },
+        {
+          "id": "c_residence",
+          "copies": 1,
+          "name": {
+            "en": "Residence certificate",
+            "fr": "Certificat de résidence",
+            "ar": "شهادة الإقامة"
+          },
+          "issuedBy": {
+            "en": "Town hall (APC) of your residence",
+            "fr": "Mairie (APC) de résidence",
+            "ar": "بلدية الإقامة"
+          },
+          "where": {
+            "en": "Only the town hall where you live can issue it.",
+            "fr": "Seule la mairie de votre lieu de résidence peut le délivrer.",
+            "ar": "تستخرج فقط من بلدية مقر سكنك."
+          },
+          "tip": null
+        },
+        {
+          "id": "c_work",
+          "copies": 1,
+          "name": {
+            "en": "Work certificate",
+            "fr": "Attestation de travail",
+            "ar": "شهادة العمل"
+          },
+          "issuedBy": {
+            "en": "Your employer",
+            "fr": "Votre employeur",
+            "ar": "المستخدم"
+          },
+          "where": {
+            "en": "Ask HR; it must show your start date and employer number.",
+            "fr": "Demandez aux RH ; elle doit indiquer la date d'embauche et le numéro employeur.",
+            "ar": "اطلبها من الموارد البشرية مع تاريخ التوظيف ورقم المستخدم."
+          },
+          "tip": {
+            "en": "Ask HR whether they already declared you: it saves a visit.",
+            "fr": "Demandez aux RH s'ils vous ont déjà déclaré : une visite en moins.",
+            "ar": "اسأل إن كان المستخدم قد صرّح بك، فذلك يوفر زيارة."
+          }
+        },
+        {
+          "id": "c_rib",
+          "copies": 1,
+          "name": {
+            "en": "Crossed cheque or bank details",
+            "fr": "Chèque barré ou RIB",
+            "ar": "صك مشطوب أو كشف الهوية البنكية"
+          },
+          "issuedBy": {
+            "en": "Post office (CCP) or your bank",
+            "fr": "Poste (CCP) ou votre banque",
+            "ar": "البريد أو البنك"
+          },
+          "where": {
+            "en": "Used for reimbursements. A crossed CCP cheque is accepted.",
+            "fr": "Pour les remboursements. Un chèque CCP barré est accepté.",
+            "ar": "لاسترداد المصاريف، ويقبل صك بريدي مشطوب."
+          },
+          "tip": null
+        },
+        {
+          "id": "c_photos",
+          "copies": 2,
+          "name": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "issuedBy": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          },
+          "where": {
+            "en": "Any photo studio. Plain light background.",
+            "fr": "N'importe quel studio photo, fond clair uni.",
+            "ar": "أي استوديو تصوير، بخلفية فاتحة."
+          },
+          "tip": null
+        },
+        {
+          "id": "c_form",
+          "copies": 1,
+          "name": {
+            "en": "CNAS affiliation form",
+            "fr": "Formulaire d'affiliation CNAS",
+            "ar": "استمارة الانتساب CNAS"
+          },
+          "issuedBy": {
+            "en": "CNAS agency counter",
+            "fr": "Guichet de l'agence CNAS",
+            "ar": "شباك وكالة CNAS"
+          },
+          "where": {
+            "en": "Free at any agency counter.",
+            "fr": "Gratuit à tout guichet d'agence.",
+            "ar": "مجانية في أي شباك وكالة."
+          },
+          "tip": null
+        }
+      ],
+      "fees": [
+        {
+          "id": "cf_card",
+          "category": "fee",
+          "amount": 0,
+          "label": {
+            "en": "Chifa card, first issue",
+            "fr": "Carte Chifa, première émission",
+            "ar": "بطاقة الشفاء، أول إصدار"
+          },
+          "note": {
+            "en": "Free",
+            "fr": "Gratuite",
+            "ar": "مجانية"
+          }
+        },
+        {
+          "id": "cf_photos",
+          "category": "other",
+          "amount": 100,
+          "qty": 2,
+          "adjustable": true,
+          "unit": {
+            "en": "photo",
+            "fr": "photo",
+            "ar": "صورة"
+          },
+          "label": {
+            "en": "ID photos",
+            "fr": "Photos d'identité",
+            "ar": "صور شمسية"
+          },
+          "note": {
+            "en": "Photo studio",
+            "fr": "Studio photo",
+            "ar": "استوديو التصوير"
+          }
+        },
+        {
+          "id": "cf_copies",
+          "category": "other",
+          "amount": 10,
+          "qty": 5,
+          "adjustable": true,
+          "unit": {
+            "en": "page",
+            "fr": "page",
+            "ar": "صفحة"
+          },
+          "label": {
+            "en": "Photocopies",
+            "fr": "Photocopies",
+            "ar": "نسخ ورقية"
+          },
+          "note": {
+            "en": "Photocopy shop",
+            "fr": "Photocopieur",
+            "ar": "محل النسخ"
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "en": "Get your work certificate",
+            "fr": "Obtenez l'attestation de travail",
+            "ar": "احصل على شهادة العمل"
+          },
+          "place": {
+            "en": "Your employer (HR)",
+            "fr": "Votre employeur (RH)",
+            "ar": "المستخدم (الموارد البشرية)"
+          },
+          "detail": {
+            "en": "It must show your start date and the employer number.",
+            "fr": "Elle doit indiquer la date d'embauche et le numéro employeur.",
+            "ar": "يجب أن تحمل تاريخ التوظيف ورقم المستخدم."
+          },
+          "tip": {
+            "en": "Ask whether you are already declared: you may skip a visit.",
+            "fr": "Demandez si vous êtes déjà déclaré : une visite en moins.",
+            "ar": "اسأل إن كنت مصرّحاً بك، فقد توفّر زيارة."
+          }
+        },
+        {
+          "title": {
+            "en": "Collect civil-status documents",
+            "fr": "Retirez les pièces d'état civil",
+            "ar": "استخرج وثائق الحالة المدنية"
+          },
+          "place": {
+            "en": "Town hall (APC)",
+            "fr": "Mairie (APC)",
+            "ar": "البلدية"
+          },
+          "detail": {
+            "en": "Birth certificate (12S) and residence certificate.",
+            "fr": "Extrait de naissance (12S) et certificat de résidence.",
+            "ar": "شهادة الميلاد (12S) وشهادة الإقامة."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Submit your file at the CNAS agency",
+            "fr": "Déposez le dossier à l'agence CNAS",
+            "ar": "أودع ملفك في وكالة CNAS"
+          },
+          "place": {
+            "en": "CNAS agency",
+            "fr": "Agence CNAS",
+            "ar": "وكالة CNAS"
+          },
+          "detail": {
+            "en": "Choose the agency linked to your home address.",
+            "fr": "Choisissez l'agence de votre lieu de résidence.",
+            "ar": "اختر الوكالة التابعة لمقر سكنك."
+          },
+          "tip": {
+            "en": "Go to the agency of your residence: others will redirect you.",
+            "fr": "Allez à l'agence de votre résidence : les autres vous redirigeront.",
+            "ar": "توجه إلى وكالة مقر سكنك، فالوكالات الأخرى ستعيد توجيهك."
+          }
+        },
+        {
+          "title": {
+            "en": "Receive your social security number",
+            "fr": "Recevez votre numéro de sécurité sociale",
+            "ar": "استلم رقم الضمان الاجتماعي"
+          },
+          "place": {
+            "en": "CNAS agency",
+            "fr": "Agence CNAS",
+            "ar": "وكالة CNAS"
+          },
+          "detail": {
+            "en": "Keep the registration certificate safe.",
+            "fr": "Conservez bien l'attestation d'affiliation.",
+            "ar": "احتفظ بشهادة الانتساب جيداً."
+          },
+          "tip": null
+        },
+        {
+          "title": {
+            "en": "Pick up your Chifa card",
+            "fr": "Retirez votre carte Chifa",
+            "ar": "استلم بطاقة الشفاء"
+          },
+          "place": {
+            "en": "CNAS agency",
+            "fr": "Agence CNAS",
+            "ar": "وكالة CNAS"
+          },
+          "detail": {
+            "en": "Activate it at the counter with your ID card.",
+            "fr": "Activez-la au guichet avec votre carte d'identité.",
+            "ar": "فعّلها في الشباك ببطاقة التعريف."
+          },
+          "tip": null
+        }
+      ],
+      "offices": [
+        {
+          "wilaya": "16",
+          "lat": 36.765,
+          "lng": 3.05,
+          "name": {
+            "en": "CNAS agency, Algiers Centre",
+            "fr": "Agence CNAS, Alger-Centre",
+            "ar": "وكالة CNAS، الجزائر الوسطى"
+          },
+          "address": {
+            "en": "Rue Hassiba Ben Bouali, Algiers",
+            "fr": "Rue Hassiba Ben Bouali, Alger",
+            "ar": "شارع حسيبة بن بوعلي، الجزائر"
+          },
+          "hours": {
+            "sun": "08:00-16:30",
+            "mon": "08:00-16:30",
+            "tue": "08:00-16:30",
+            "wed": "08:00-16:30",
+            "thu": "08:00-16:30",
+            "sat": "08:30-12:00"
+          }
+        },
+        {
+          "wilaya": "31",
+          "lat": 35.6971,
+          "lng": -0.6308,
+          "name": {
+            "en": "CNAS agency, Oran Centre",
+            "fr": "Agence CNAS, Oran-Centre",
+            "ar": "وكالة CNAS، وهران الوسط"
+          },
+          "address": {
+            "en": "Boulevard Emir Abdelkader, Oran",
+            "fr": "Boulevard Émir Abdelkader, Oran",
+            "ar": "شارع الأمير عبد القادر، وهران"
+          },
+          "hours": {
+            "sun": "08:00-16:30",
+            "mon": "08:00-16:30",
+            "tue": "08:00-16:30",
+            "wed": "08:00-16:30",
+            "thu": "08:00-16:30"
+          }
+        },
+        {
+          "wilaya": "25",
+          "lat": 36.365,
+          "lng": 6.6147,
+          "name": {
+            "en": "CNAS agency, Constantine",
+            "fr": "Agence CNAS, Constantine",
+            "ar": "وكالة CNAS، قسنطينة"
+          },
+          "address": {
+            "en": "Avenue Aouati Mustapha, Constantine",
+            "fr": "Avenue Aouati Mustapha, Constantine",
+            "ar": "شارع عواطي مصطفى، قسنطينة"
+          },
+          "hours": {
+            "sun": "08:00-16:00",
+            "mon": "08:00-16:00",
+            "tue": "08:00-16:00",
+            "wed": "08:00-16:00",
+            "thu": "08:00-16:00"
+          }
+        }
+      ]
+    }
+  ]
+}

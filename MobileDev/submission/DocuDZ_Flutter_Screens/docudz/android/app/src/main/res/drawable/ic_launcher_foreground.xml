@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DocuDZ launcher foreground: same geometry as lib/widgets/brand.dart -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF" android:pathData="M42.61,33.90 L60.03,33.90 L69.41,43.28 L69.41,70.08 Q69.41,74.10 65.39,74.10 L42.61,74.10 Q38.59,74.10 38.59,70.08 L38.59,37.92 Q38.59,33.90 42.61,33.90 Z" />
+    <path android:fillColor="#CFEAE4" android:pathData="M60.03,33.90 L60.03,43.28 L69.41,43.28 Z" />
+    <path android:strokeColor="#DDD7CC" android:strokeWidth="3.01" android:strokeLineCap="round" android:pathData="M43.95,44.62 L57.35,44.62" />
+    <path android:strokeColor="#DDD7CC" android:strokeWidth="3.01" android:strokeLineCap="round" android:pathData="M43.95,51.99 L64.05,51.99" />
+    <path android:strokeColor="#F4A259" android:strokeWidth="5.70" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M44.62,60.70 L51.32,67.40 L64.72,54.00" />
+</vector>

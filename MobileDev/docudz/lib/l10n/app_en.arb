@@ -1,0 +1,275 @@
+{
+  "@@locale": "en",
+  "appName": "DocuDZ",
+  "tagline": "All set, stress less",
+  "greeting": "Hello",
+  "homeHeadline": "Which file are you preparing?",
+  "searchHint": "Search a service or document",
+  "offlineReady": "Offline ready",
+  "continueTitle": "Continue where you left off",
+  "nextDocument": "Next: {document}",
+  "@nextDocument": {
+    "placeholders": {
+      "document": {
+        "type": "String"
+      }
+    }
+  },
+  "continueAction": "Continue",
+  "servicesTitle": "Services",
+  "docsProgress": "{done}/{total} documents",
+  "@docsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "docsReadyOf": "{done} of {total} documents ready",
+  "@docsReadyOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "verifiedShort": "Verified {date}",
+  "@verifiedShort": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "lastVerified": "Last verified: {date}",
+  "@lastVerified": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navCosts": "Costs",
+  "navOffices": "Offices",
+  "navSettings": "Settings",
+  "notOfficialTitle": "Not an official service",
+  "notOfficialBody": "DocuDZ is an independent assistant. It is not affiliated with any administration and never submits anything for you. Always confirm with the office.",
+  "notOfficialFooter": "Independent assistant. Not an official service.",
+  "quickSteps": "Steps",
+  "quickCosts": "Costs",
+  "quickOffice": "Office",
+  "requiredDocuments": "Required documents",
+  "remainingCount": "{count, plural, =0{All gathered} =1{1 left} other{{count} left}}",
+  "@remainingCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "copies": "{count, plural, =1{1 copy} other{{count} copies}}",
+  "@copies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "issuedBy": "Issued by: {place}",
+  "@issuedBy": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "statusReady": "Ready",
+  "statusToGet": "To get",
+  "reportError": "Report an error",
+  "reportErrorHint": "Spotted something outdated? Tell us, it helps everyone.",
+  "allSetTitle": "All set!",
+  "allSetBody": "Your file is complete. Review the steps before you go.",
+  "sheetWhere": "Where to get it",
+  "sheetCopies": "Copies to bring",
+  "sheetTip": "Good to know",
+  "markGathered": "Mark as gathered",
+  "markMissing": "Mark as not gathered",
+  "checkboxSemantics": "{document}, {status}",
+  "@checkboxSemantics": {
+    "placeholders": {
+      "document": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "costsTitle": "Stamp & fee calculator",
+  "costsSubtitle": "Know exactly what to bring before you go.",
+  "sectionStampsFees": "Stamps & official fees",
+  "sectionOther": "Other costs",
+  "subtotal": "Subtotal",
+  "totalToBring": "Total to bring",
+  "feesMayChange": "Fees may change, check the last verified date.",
+  "free": "Free",
+  "optional": "Optional",
+  "qtyTimes": "{qty} × {price}",
+  "@qtyTimes": {
+    "placeholders": {
+      "qty": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "decrease": "Decrease",
+  "increase": "Increase",
+  "stampsTip": "Fiscal stamps are sold at post offices and tax offices, rarely at the counter itself.",
+  "currency": "DZD",
+  "stepsTitle": "Step-by-step",
+  "stepsCount": "{count, plural, =1{1 step} other{{count} steps}}",
+  "@stepsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "visitsCount": "{count, plural, =1{about 1 office visit} other{about {count} office visits}}",
+  "@visitsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stepLabel": "Step {n}",
+  "@stepLabel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tipAvoidTrip": "Tip to avoid an extra trip",
+  "officeTitle": "Office information",
+  "wilaya": "Wilaya",
+  "openNow": "Open now",
+  "closesAt": "closes at {time}",
+  "@closesAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "closedNow": "Closed now",
+  "opensAt": "opens at {time}",
+  "@opensAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "closedToday": "Closed today",
+  "openingHours": "Opening days & hours",
+  "today": "Today",
+  "closed": "Closed",
+  "address": "Address",
+  "openInMaps": "Open in Maps",
+  "mapOfflineCaption": "Map preview is not stored offline",
+  "mapsSnack": "Opens your Maps app when one is installed.",
+  "settingsTitle": "Settings",
+  "language": "Language",
+  "languageHint": "The whole app switches instantly, including right-to-left Arabic.",
+  "contentSection": "Content",
+  "lastContentUpdate": "Last content update",
+  "contentVersion": "Content version {version}",
+  "@contentVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "checkForUpdates": "Check for updates",
+  "upToDate": "Your checklists are up to date.",
+  "trustSection": "Trust & privacy",
+  "privacyTitle": "Your data stays on this phone",
+  "privacyBody": "Only your ticks and your language are saved. No account, no tracking.",
+  "premiumTitle": "DocuDZ Premium",
+  "premiumPrice": "500 {currency} / year",
+  "@premiumPrice": {
+    "placeholders": {
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumFeatures": "Ad-free, several profiles, reminders",
+  "comingLater": "Coming later",
+  "about": "About",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "madeBy": "Made by DRIS Fadia & NEFRAOUI Marya, ENSIA",
+  "onboardingTitle": "Choose your language",
+  "onboardingBody": "Prepare your administrative files offline, one clear step at a time.",
+  "continueButton": "Continue",
+  "searchNoResults": "No results for “{query}”",
+  "@searchNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchNoResultsHint": "Try “passport” or “birth certificate”.",
+  "searchDocuments": "Matching documents",
+  "reportTitle": "Report an error",
+  "reportSubtitle": "{service}, last verified {date}",
+  "@reportSubtitle": {
+    "placeholders": {
+      "service": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "reportWhat": "What looks wrong?",
+  "reportMissingDoc": "Missing document",
+  "reportWrongFee": "Wrong fee",
+  "reportWrongOffice": "Wrong office or hours",
+  "reportOther": "Other",
+  "reportDetailsHint": "Describe what should be corrected (optional)",
+  "reportSend": "Send report",
+  "reportOfflineNote": "No connection needed: the report is queued and sent when you are back online.",
+  "reportThanks": "Thanks! Your report is saved.",
+  "sampleData": "Sample dataset (design preview)",
+  "langArDesc": "Arabic, right-to-left layout",
+  "langFrDesc": "French",
+  "langEnDesc": "English",
+  "appVersion": "1.0.0 (MVP preview)",
+  "officeKindLabel": "Where to submit",
+  "onbFeat1": "Checklists that work offline",
+  "onbFeat2": "Stamp costs added up for you",
+  "onbFeat3": "The right office, days and hours"
+}
